@@ -73,7 +73,6 @@
   
   .menu-icon {
     display: none;
-    color: #fff;
   }
   
   @media screen and (max-width: 960px) {
@@ -91,6 +90,7 @@
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
+      justify-content: start;
     }
   
     .nav-menu.active {
@@ -137,7 +137,6 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
-      color: #fff;
     }
   
     .fa-times {
@@ -152,4 +151,14 @@
       width: 100%;
       height: 120px;
     }
+
+    .btn-link{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      padding: 8px 16px;
+      height: 100%;
+      width: 100%;
+  }
   }
